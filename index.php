@@ -1,20 +1,14 @@
-<?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-print 'helloooo';
-?>
 <html>
   <head>
 
-    <title>As valdau HTML!</title>
+    <title>As valdau HTML </title>
   </head>
   <body>
-    <h1>Deividas - HTML asas!</h1>
-    <p>Moku kurti statini turini.</p>
+    <h1>Deividas - HTML <?php print 'ir PHP asas!'?> </h1>
+    <p>Kuriu dinamini turini <?php print 'php ir PHP!'?> </p>
+    <?php
+    print date('2019-10-29 10:53:12')
+    ?>
   </body>
 </html>
