@@ -1,13 +1,10 @@
 
 <html>
   <head>
-    <title>As valdau HTML <?php print 'ir PHP!'?> </title>
+      <title> <?php print 'As,' . date ('l') . ('ir PHP'); ?> </title>
   </head>
   <body>
-    <h1>Deividas - HTML <?php print 'ir PHP asas!'?> </h1>
-    <p>Kuriu dinamini turini</p>
-   <?php
-    print date('2019-10-29 10:53:12')
-    ?>
+    <h1>Deividas - HTML <?php print 'ir PHP'; ?> asas jau nuo <?php print date ('Y') . ' metu' ; ?>  </h1>
+    <p>Viskas prasidejo <?php print date ('F') . ' menesio, ' . date ('d') . ' diena!' ;?> </p>
   </body>
 </html>
