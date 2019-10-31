@@ -1,14 +1,16 @@
 
+<?php 
+$img = 'https://www.askideas.com/media/48/Funny-Hillary-Clinton-Surprised-Face-Photo.jpg'
+?>
 <html>
     <head>
-        <title> Komentarai</title>
+        
+        
     </head>
     <body>
-        <h1> Dainu tekstai; </h1>
-        <h2> Paragrafo daina; </h2>
-        <?php
-        //<p> As toks vienisas jaunas paragrafas... </p>//
-        ?>
-      <!-- <p> Mindau svetimo kodo gatves... </p>  komentuoju as tau sita paragrafa -->
+        <img src="<?php print $img;?>"/>
+        <img src="<?php print $img;?>"/>
+        <img src="<?php print $img;?>"/>
+        <img src="<?php print $img;?>"/>
     </body>
 </html>
