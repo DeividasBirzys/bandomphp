@@ -2,6 +2,7 @@
 $grizai_velai = rand(0, 1);
 $grizai_isgeres = rand(0, 1);
 
+
 if ($grizai_velai && !$grizai_isgeres) {
     $h_2rezultatas = 'Grizai velai!';
 } else if ($grizai_velai && $grizai_isgeres) {
