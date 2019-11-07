@@ -1,40 +1,39 @@
 <?php
 
 $array = [
-    ['user_name' => [
-            'vardas' => 'Petras',
-            'klicka' => 'Pizdys'
+    'pieno_produktai' => [
+        'kiausiniai' => [
+            'amount' => 3
         ],
-        'attribute' => [
-            'one_handed' => [
-                'condition' => 'prapistas',
-                'totemas' => 'telefonas'
-            ]
+        'grietine' => [
+            'amount' => 1
+        ],
+        'jogurtas' => [
+            'amount' => 2
+        ],
+        'pienas' => [
+            'amount' => 1
+        ],
+        'kefyras' => [
+            'amount' => 0
         ]
     ],
-    ['user_name' => [
-            'vardas' => 'Tomas',
-            'klicka' => 'Ablomas'
-        ],
-        'attribute' => [
-            'one_handed' => [
-                'condition' => 'naudojamas',
-                'totemas' => 'buljonas'
-            ]
+    'juros_gerybes' => [
+        'zuvis' => [
+            'amount' => 0
         ]
     ],
-    ['user_name' => [
-            'vardas' => 'Ana',
-            'klicka' => 'Shitkova'
-        ],
-        'attribute' => [
-            'one_handed' => [
-                'condition' => 'pasibaiges',
-                'totemas' => 'rulonas'
-            ]
+    'alkoholis' => [
+        'vodke' => [
+            'amount' => 2
+        ]
+    ],
+    'padazai' => [
+        'keciupas' => [
+            'amount' => 2
         ]
     ]
 ];
 
-var_dump($array);
+var_dump ($array);
 ?>
