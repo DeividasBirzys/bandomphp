@@ -1,51 +1,51 @@
 <?php
 
 $array = [
-    0 => [
-        0 => [
-            'kiausiniai' => [
-                'amount' => 3
-            ]
+    //pirmas takelis
+    [
+        [
+            1 => true,
+            2 => false,
+            3 => false,
+            4 => true
         ],
-        1 => [
-            'grietine' => [
-                'amount' => 1
-            ]
+        [
+            1 => false,
+            2 => false,
+            3 => true
         ],
-        2 => [
-            'jogurtas' => [
-                'amount' => 2
-            ]
+        [
+            1 => false,
+            2 => true,
+            3 => true
         ],
-        3 => [
-            'zuvis' => [
-                'amount' => 0
-            ]
-        ]
+        [
+            'clean' => true
+        ],
     ],
-    1 => [
-        0 => [
-            'pienas' => [
-                'amount' => 1
-            ]
+    //antras takelis
+    [
+        [
+            1 => false,
+            2 => false,
+            3 => false,
+            4 => false
         ],
-        1 => [
-            'kefyras' => [
-                'amount' => 0
-            ]
+        [
+            1 => false,
+            2 => false,
+            3 => false
         ],
-        2 => [
-            'vodke' => [
-                'amount' => 2
-            ]
+        [
+            1 => false,
+            2 => false,
+            3 => false
         ],
-        3 => [
-            'keciupas' => [
-                'amount' => 2
-            ]
+        [
+            'clean' => false
         ]
     ]
 ];
 
-var_dump($array);
+$array = var_dump($array);
 ?>
