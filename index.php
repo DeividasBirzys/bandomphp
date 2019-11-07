@@ -1,55 +1,16 @@
 <?php
 
-$array = [
-    //pirmas takelis
-    [
-        [
-            1 => true,
-            2 => false,
-            3 => false,
-            4 => true
-        ],
-        [
-            1 => false,
-            2 => false,
-            3 => true
-        ],
-        [
-            1 => false,
-            2 => true
-        ],
-        [
-            1 => true
-        ],
-        [
-            'primyzta' => false
-        ],
-    ],
-    //antras takelis
-    [
-        [
-            1 => false,
-            2 => false,
-            3 => false,
-            4 => false
-        ],
-        [
-            1 => false,
-            2 => false,
-            3 => false
-        ],
-        [
-            1 => false,
-            2 => false
-        ],
-        [
-          1 => false  
-        ],
-        [
-            'primyzta' => true
-        ]
-    ]
+$led = [
+    //eilutes
+    [1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 2, 2, 2, 2, 2, 2, 1],
+    [1, 2, 3, 3, 3, 3, 2, 1],
+    [1, 2, 3, 2, 2, 3, 2, 1],
+    [1, 2, 3, 2, 2, 3, 2, 1],
+    [1, 2, 3, 3, 3, 3, 2, 1],
+    [1, 2, 2, 2, 2, 2, 2, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1]
 ];
 
-$array = var_dump($array);
+var_dump ($led);
 ?>
