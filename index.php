@@ -1,7 +1,7 @@
 <?php
 
 $array = [
-    'pieno_produktai' => [
+    'pirma_lentyna' => [
         'kiausiniai' => [
             'amount' => 3
         ],
@@ -11,29 +11,25 @@ $array = [
         'jogurtas' => [
             'amount' => 2
         ],
+        'zuvis' => [
+            'amount' => 0
+        ]
+    ],
+    'antra_lentyna' => [
         'pienas' => [
             'amount' => 1
         ],
         'kefyras' => [
             'amount' => 0
-        ]
-    ],
-    'juros_gerybes' => [
-        'zuvis' => [
-            'amount' => 0
-        ]
-    ],
-    'alkoholis' => [
+        ],
         'vodke' => [
             'amount' => 2
-        ]
-    ],
-    'padazai' => [
+        ],
         'keciupas' => [
             'amount' => 2
         ]
     ]
 ];
 
-var_dump ($array);
+var_dump($array);
 ?>
