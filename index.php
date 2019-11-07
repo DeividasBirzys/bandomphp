@@ -1,17 +1,14 @@
 <?php
 
-$led = [
-    //eilutes
-    // zalia = 1; geltona = 2; raudona = 3;
-    [1, 1, 1, 1, 1, 1, 1, 1],
-    [1, 2, 2, 2, 2, 2, 2, 1],
-    [1, 2, 3, 3, 3, 3, 2, 1],
-    [1, 2, 3, 2, 2, 3, 2, 1],
-    [1, 2, 3, 2, 2, 3, 2, 1],
-    [1, 2, 3, 3, 3, 3, 2, 1],
-    [1, 2, 2, 2, 2, 2, 2, 1],
-    [1, 1, 1, 1, 1, 1, 1, 1]
+$homeless_panda = [
+    ['gender' => 'male'],
+    ['race' => 'asian'],
+    ['position' => [
+            'horizontal' => true
+        ]
+    ],
+    ['intoxication' => true],
 ];
 
-var_dump ($led);
+var_dump ($homeless_panda);
 ?>
