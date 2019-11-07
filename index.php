@@ -1,27 +1,37 @@
 <?php
+
 $array = [
-    [
-        'vardas' => 'Petras',
-        'klicka' => 'Pizdys',
+    ['user_name' => [
+            'vardas' => 'Petras',
+            'klicka' => 'Pizdys'
+        ],
         'attribute' => [
-            'condition' => 'prapistas',
-            'totemas' => 'telefonas'
+            'one_handed' => [
+                'condition' => 'prapistas',
+                'totemas' => 'telefonas'
+            ]
         ]
     ],
-    [
-        'vardas' => 'Tomas',
-        'klicka' => 'Ablomas',
+    ['user_name' => [
+            'vardas' => 'Tomas',
+            'klicka' => 'Ablomas'
+        ],
         'attribute' => [
-            'condition' => 'naudojamas',
-            'totemas' => 'buljonas'
+            'one_handed' => [
+                'condition' => 'naudojamas',
+                'totemas' => 'buljonas'
+            ]
         ]
     ],
-    [
-        'vardas' => 'Ana',
-        'klicka' => 'Shitkova',
+    ['user_name' => [
+            'vardas' => 'Ana',
+            'klicka' => 'Shitkova'
+        ],
         'attribute' => [
-            'condition' => 'pasibaiges',
-            'totemas' => 'rulonas'
+            'one_handed' => [
+                'condition' => 'pasibaiges',
+                'totemas' => 'rulonas'
+            ]
         ]
     ]
 ];
