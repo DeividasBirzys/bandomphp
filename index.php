@@ -16,11 +16,13 @@ $array = [
         ],
         [
             1 => false,
-            2 => true,
-            3 => true
+            2 => true
         ],
         [
-            'clean' => true
+            1 => true
+        ],
+        [
+            'primyzta' => false
         ],
     ],
     //antras takelis
@@ -38,11 +40,13 @@ $array = [
         ],
         [
             1 => false,
-            2 => false,
-            3 => false
+            2 => false
         ],
         [
-            'clean' => false
+          1 => false  
+        ],
+        [
+            'primyzta' => true
         ]
     ]
 ];
